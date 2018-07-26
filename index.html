@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Vibrations</title>
+	<input type="button" onclick="superMario()" value="Super Mario">
+	<br/>
+	<input type="button" onclick="starWars()" value="Star Wars">
+	<br/>
+	<input type="button" onclick="gogoPowerRangers()" value="Go go Power Rangers">
+	<br/>
+	<input type="button" onclick="gemidao()" value="Gemidão">
+</head>
+<body>
+
+</body>
+</html>
+
+<html>
+	<body>
+	</body>
+	<script>
+		var superMario = function() {
+			navigator.vibrate([125, 75, 125, 275, 200, 275, 125, 75, 125, 27, 5, 200, 600, 200, 600]);
+		}
+
+		var starWars = function() {
+			navigator.vibrate([500, 110, 500, 110, 450, 110, 200, 110, 170, 40, 450, 110, 200, 110, 170, 40, 500]);
+		}
+
+		var gogoPowerRangers = function() {
+			navigator.vibrate([150, 150, 150, 150, 75, 75, 150, 150, 15, 0, 450]);
+		}
+
+		var gemidao = function() {
+			navigator.vibrate([800, 450, 110, 200, 110, 110, 800, 450, 110, 200, 110, 110, 800]);
+		}
+	</script>
+</html>
